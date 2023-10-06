@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(320deg, white, gray, black);
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: whitesmoke;
+    border: 1px solid rgba(255,255,255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35,35, 0.1);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255, 0.30);
+    border: 1px solid rgba(255,255,255, 0.34);
+    flex-basis: 400px;
+}
